@@ -1,0 +1,23 @@
+.settingsPage {
+  width: 80%;
+  height: calc(100vh - 64px);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+
+  &__select {
+    margin-top: 40px;
+  }
+
+  .select {
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+  }
+
+  .select:focus-visible {
+    outline: 0;
+  }
+}

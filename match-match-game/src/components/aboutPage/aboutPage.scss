@@ -1,0 +1,73 @@
+.about-page {
+  width: 80%;
+  height: calc(100vh - 64px);
+
+  &_tittle{
+    font-size: 20px;
+  }
+
+  & > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  & > div > .step {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+  }
+
+  & > div > .step > .counter {
+    color: white;
+    margin: 20px;
+    min-width: 40px;
+    height: 40px;
+    background-color: #2196F3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  & > div > .step > .text {
+    margin: 20px;
+    width: calc(100% - 40px);
+  }
+
+  &__register {
+    margin-top: 40px;
+    height: 240px;
+  }
+
+  &__configure {
+    margin-top: 20px;
+    height: 130px;
+  }
+
+  &__rules {
+    margin-top: 20px;
+    height: 240px;
+  }
+
+  &__register-example{
+    background-image: url('../../assets/aboutPage-registerExample.png');
+  }
+  &__configure-example{
+    background-image: url('../../assets/aboutPage-configureExample.png');
+  }
+  &__rules-example{
+    background-image: url('../../assets/aboutPage-gameExample.png');
+  }
+
+  &__register-example,
+  &__configure-example,
+  &__rules-example {
+    width: 100%;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+}
